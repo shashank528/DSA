@@ -1,15 +1,19 @@
 package recursion;
 
+import java.util.Arrays;
 import java.util.HashSet;
 
 public class WordBreak {
     public static void main(String[] args) {
-       String s = "applepenapple";
+    //   String s = "applepenapple";
 
-       HashSet<String> wordDict = new HashSet<>();
-       wordDict.add("apple");
-       wordDict.add("pen");
-        WordBreakHelp(s,wordDict,"");
+//       HashSet<String> wordDict = new HashSet<>();
+//       wordDict.add("apple");
+//       wordDict.add("pen");
+//        WordBreakHelp(s,wordDict,"");
+        String s="1.0.1.1";
+        String[] str=s.split("\\.");
+        System.out.println(Arrays.toString(str));
 
     }
 
